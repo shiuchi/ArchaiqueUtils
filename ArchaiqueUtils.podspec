@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/shiuchi/ArchaiqueUtils" , :tag => s.version.to_s}
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "ArchaiqueUtils/Classes", "ArchaiqueUtils/Classes/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
