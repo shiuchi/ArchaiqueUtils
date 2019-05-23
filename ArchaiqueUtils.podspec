@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "shiuchi" => "s.shiuchi[at]gmail.com" }
   s.platform     = :ios
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/shiuchi/ArchaiqueUtils" , :tag => s.version.to_s}
+  s.source       = { :git => "https://github.com/shiuchi/ArchaiqueUtils.git" , :tag => s.version.to_s}
   s.source_files  = "ArchaiqueUtils/Classes", "ArchaiqueUtils/Classes/**/*"
   s.requires_arc = true
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '(inherited)′,′LIBRARYSEARCHPATHS′=>′(inherited)', 'OTHER_LDFLAGS' => '$(inherited)' }
