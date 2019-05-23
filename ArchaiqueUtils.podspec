@@ -5,8 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "ArchaiqueUtils."
 
   
-  s.description  = <<-DESC
-                   DESC
+  s.description  =  "swift utils for shiuchi"
 
   s.homepage     = "https://github.com/shiuchi/ArchaiqueUtils"
   s.license      = "MIT"
