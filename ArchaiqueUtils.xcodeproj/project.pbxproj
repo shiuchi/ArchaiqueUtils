@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F4427E67229697FC00B1EC0D /* ArchaiqueUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4427E5D229697FB00B1EC0D /* ArchaiqueUtils.framework */; };
 		F4427E6E229697FC00B1EC0D /* ArchaiqueUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F4427E60229697FB00B1EC0D /* ArchaiqueUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4427E782296984600B1EC0D /* ArchaiqueUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4427E772296984600B1EC0D /* ArchaiqueUtils.swift */; };
 		F4427EAC22969A2200B1EC0D /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4427EA422969A2200B1EC0D /* ArrayExtension.swift */; };
 		F4427EB322969A2200B1EC0D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4427EAB22969A2200B1EC0D /* UIColorExtension.swift */; };
 		F4427EB72296A48800B1EC0D /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4427EB62296A48800B1EC0D /* UIApplicationExtension.swift */; };
@@ -46,7 +45,6 @@
 		F4427E61229697FB00B1EC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4427E66229697FC00B1EC0D /* ArchaiqueUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchaiqueUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4427E6D229697FC00B1EC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4427E772296984600B1EC0D /* ArchaiqueUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchaiqueUtils.swift; sourceTree = "<group>"; };
 		F4427EA422969A2200B1EC0D /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		F4427EAB22969A2200B1EC0D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		F4427EB42296A40700B1EC0D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
@@ -117,11 +115,9 @@
 		F4427E5F229697FB00B1EC0D /* ArchaiqueUtils */ = {
 			isa = PBXGroup;
 			children = (
+				F467F4AD2296DA8F00C8922A /* Classes */,
 				F4427E60229697FB00B1EC0D /* ArchaiqueUtils.h */,
 				F4427E61229697FB00B1EC0D /* Info.plist */,
-				F4427E772296984600B1EC0D /* ArchaiqueUtils.swift */,
-				F4427EA322969A0C00B1EC0D /* extension */,
-				F4427EBA2296A75400B1EC0D /* utils */,
 			);
 			path = ArchaiqueUtils;
 			sourceTree = "<group>";
@@ -158,6 +154,15 @@
 				F4427EC12296AA0E00B1EC0D /* Log.swift */,
 			);
 			path = utils;
+			sourceTree = "<group>";
+		};
+		F467F4AD2296DA8F00C8922A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4427EBA2296A75400B1EC0D /* utils */,
+				F4427EA322969A0C00B1EC0D /* extension */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F498D1EE2296B50E008203F5 /* ArchaiqueUtilsSample */ = {
@@ -317,7 +322,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F498D1E82296B2F7008203F5 /* StringExtension.swift in Sources */,
-				F4427E782296984600B1EC0D /* ArchaiqueUtils.swift in Sources */,
 				F4427EC22296AA0E00B1EC0D /* Log.swift in Sources */,
 				F4427EB72296A48800B1EC0D /* UIApplicationExtension.swift in Sources */,
 				F4427EB322969A2200B1EC0D /* UIColorExtension.swift in Sources */,
