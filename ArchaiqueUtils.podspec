@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "shiuchi" => "s.shiuchi[at]gmail.com" }
   s.platform     = :ios
-  s.platform     = :ios, "12.0"
-  s.source       = { :git => "https://github.com/shiuchi/ArchaiqueUtils" }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.platform     = :ios, "10.0"
+  s.source       = { :git => "https://github.com/shiuchi/ArchaiqueUtils" , :tag => s.version.to_s}
+  s.source_files  = "ArchaiqueUtils/Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
