@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F440F949229DB6F0009C969E /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440F948229DB6F0009C969E /* DateExtension.swift */; };
 		F4427E67229697FC00B1EC0D /* ArchaiqueUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4427E5D229697FB00B1EC0D /* ArchaiqueUtils.framework */; };
 		F4427E6E229697FC00B1EC0D /* ArchaiqueUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F4427E60229697FB00B1EC0D /* ArchaiqueUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4427EAC22969A2200B1EC0D /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4427EA422969A2200B1EC0D /* ArrayExtension.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F440F948229DB6F0009C969E /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		F4427E5D229697FB00B1EC0D /* ArchaiqueUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArchaiqueUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4427E60229697FB00B1EC0D /* ArchaiqueUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchaiqueUtils.h; sourceTree = "<group>"; };
 		F4427E61229697FB00B1EC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				F4427EB42296A40700B1EC0D /* StringExtension.swift */,
 				F4427EB62296A48800B1EC0D /* UIApplicationExtension.swift */,
 				F4427EB82296A5F400B1EC0D /* UILabelExtension.swift */,
+				F440F948229DB6F0009C969E /* DateExtension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				F4427EC22296AA0E00B1EC0D /* Log.swift in Sources */,
 				F4427EB72296A48800B1EC0D /* UIApplicationExtension.swift in Sources */,
 				F4427EB322969A2200B1EC0D /* UIColorExtension.swift in Sources */,
+				F440F949229DB6F0009C969E /* DateExtension.swift in Sources */,
 				F4427EB92296A5F400B1EC0D /* UILabelExtension.swift in Sources */,
 				F4427EBE2296A86A00B1EC0D /* StoryBoardInstantiatable.swift in Sources */,
 				F4427EAC22969A2200B1EC0D /* ArrayExtension.swift in Sources */,
