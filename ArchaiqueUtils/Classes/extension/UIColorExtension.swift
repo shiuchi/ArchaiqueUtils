@@ -33,4 +33,15 @@ public extension UIColor {
             return nil
         }
     }
+    
+    func getImage() -> UIImage {
+        let rect = CGRect(x: 0, y: 0, width: 1, height: 1)
+        UIGraphicsBeginImageContext(rect.size)
+        guard let context = UIGraphicsGetCurrentContext() else { assertionFailure(); return UIImage() }
+        context.setFillColor(self.cgColor)
+        context.fill(rect)
+        guard let image: UIImage = UIGraphicsGetImageFromCurrentImageContext() else { assertionFailure(); return UIImage() }
+        UIGraphicsEndImageContext()
+        return image
+    }
 }
