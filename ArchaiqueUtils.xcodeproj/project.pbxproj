@@ -28,6 +28,8 @@
 		F498D2002296BF79008203F5 /* UIColorExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F498D1FF2296BF79008203F5 /* UIColorExtensionTest.swift */; };
 		F498D2022296C6D8008203F5 /* StringExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F498D2012296C6D8008203F5 /* StringExtensionTest.swift */; };
 		F498D2042296CBDF008203F5 /* ClassNameOutputtableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F498D2032296CBDF008203F5 /* ClassNameOutputtableTest.swift */; };
+		F4D8A2B1232E6EF900A94BAD /* ResultExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A2B0232E6EF900A94BAD /* ResultExtension.swift */; };
+		F4D8A2B3232E6F5D00A94BAD /* ResultExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A2B2232E6F5D00A94BAD /* ResultExtensionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		F498D1FF2296BF79008203F5 /* UIColorExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensionTest.swift; sourceTree = "<group>"; };
 		F498D2012296C6D8008203F5 /* StringExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTest.swift; sourceTree = "<group>"; };
 		F498D2032296CBDF008203F5 /* ClassNameOutputtableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassNameOutputtableTest.swift; sourceTree = "<group>"; };
+		F4D8A2B0232E6EF900A94BAD /* ResultExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultExtension.swift; sourceTree = "<group>"; };
+		F4D8A2B2232E6F5D00A94BAD /* ResultExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultExtensionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 				F498D1FF2296BF79008203F5 /* UIColorExtensionTest.swift */,
 				F498D2012296C6D8008203F5 /* StringExtensionTest.swift */,
 				F498D2032296CBDF008203F5 /* ClassNameOutputtableTest.swift */,
+				F4D8A2B2232E6F5D00A94BAD /* ResultExtensionTests.swift */,
 			);
 			path = ArchaiqueUtilsTests;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				F4427EB62296A48800B1EC0D /* UIApplicationExtension.swift */,
 				F4427EB82296A5F400B1EC0D /* UILabelExtension.swift */,
 				F440F948229DB6F0009C969E /* DateExtension.swift */,
+				F4D8A2B0232E6EF900A94BAD /* ResultExtension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -330,6 +336,7 @@
 				F4427EB322969A2200B1EC0D /* UIColorExtension.swift in Sources */,
 				F440F949229DB6F0009C969E /* DateExtension.swift in Sources */,
 				F4427EB92296A5F400B1EC0D /* UILabelExtension.swift in Sources */,
+				F4D8A2B1232E6EF900A94BAD /* ResultExtension.swift in Sources */,
 				F4427EBE2296A86A00B1EC0D /* StoryBoardInstantiatable.swift in Sources */,
 				F4427EAC22969A2200B1EC0D /* ArrayExtension.swift in Sources */,
 				F4427EBC2296A76800B1EC0D /* ClassNameOutputtable.swift in Sources */,
@@ -340,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D8A2B3232E6F5D00A94BAD /* ResultExtensionTests.swift in Sources */,
 				F4427EC42296ABD300B1EC0D /* ArrayExtensionTest.swift in Sources */,
 				F498D2042296CBDF008203F5 /* ClassNameOutputtableTest.swift in Sources */,
 				F498D2022296C6D8008203F5 /* StringExtensionTest.swift in Sources */,
@@ -445,6 +453,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -502,6 +511,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -612,7 +622,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ArchaiqueUtils.ArchaiqueUtilsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -630,7 +640,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ArchaiqueUtils.ArchaiqueUtilsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

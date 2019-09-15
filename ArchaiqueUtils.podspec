@@ -1,12 +1,10 @@
 
 Pod::Spec.new do |s|
   s.name         = "ArchaiqueUtils"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "ArchaiqueUtils."
-
-  
   s.description  =  "swift utils for shiuchi"
-
+  s.swift_version = '5.0'
   s.homepage     = "https://github.com/shiuchi/ArchaiqueUtils"
   s.license      = "MIT"
   s.author             = { "shiuchi" => "s.shiuchi[at]gmail.com" }
@@ -16,19 +14,4 @@ Pod::Spec.new do |s|
   s.source_files  = "ArchaiqueUtils/Classes", "ArchaiqueUtils/Classes/**/*"
   s.requires_arc = true
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '(inherited)′,′LIBRARYSEARCHPATHS′=>′(inherited)', 'OTHER_LDFLAGS' => '$(inherited)' }
-  
-  #s.exclude_files = "Classes/Exclude"
-  # s.public_header_files = "Classes/**/*.h"
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
-  
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-
-  # s.dependency "JSONKit", "~> 1.4"
-
 end
