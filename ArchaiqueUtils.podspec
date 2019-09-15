@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ArchaiqueUtils"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "ArchaiqueUtils."
   s.description  =  "swift utils for shiuchi"
   s.swift_version = '5.0'
